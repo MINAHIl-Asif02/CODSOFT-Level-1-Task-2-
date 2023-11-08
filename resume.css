@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    z-index: 99;
+    background-image: url("https://i.pinimg.com/736x/81/b9/06/81b906d01ce4740e041f4c6b8c5708c3.jpg");
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+#page1 button{
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.453);
+    position: absolute;
+    left: 1%;
+    top: 1%;
+
+}
+a{
+    font-size: 10px;
+    font-family: 900;
+    color: black;
+    text-decoration: none;
+  
+}
+#container{
+    /* height: 95%;
+    width: 50%; */
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+}
+ #container footer{
+    height: 100%;
+    width: 80%;
+    position: absolute;
+    left: 0%;
+}
